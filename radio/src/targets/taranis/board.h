@@ -471,7 +471,7 @@ void hapticOff(void);
 #endif
 
 // Second serial port driver
-#define DEBUG_BAUDRATE                 115200
+#define DEBUG_BAUDRATE                 57600
 #if !defined(PCBX7D)
 #define SERIAL2
 extern uint8_t serial2Mode;
